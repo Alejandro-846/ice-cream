@@ -66,7 +66,7 @@ main{
 }
 .article_jumping{
     width: 679px;
-    background: violet;
+   /* background: violet;*/
     display: flex;
     flex-direction: column;
 }
@@ -74,17 +74,75 @@ main{
     color: var(--color-1);
     font-family: "Popping-SemiBold";
     font-size: 120px;
-    line-height: 110px;
+    line-height: 91.4%;
 
 }
 .article_jumping p{
-
+    margin-top: 26px;
+    font-family: "Popping-Medium";
+    font-size: 24px;
+    color: var(--color-6);
+    line-height: 123%;
 }
 .div_buttons{
-    background: rebeccapurple;
+    margin-top: 26px;
+    /* background: rebeccapurple;*/
     display: flex;
+    gap: 38px
 }
 .div_buttons a{
+    width: 265px;
+    height: 86px;
+    border-radius: 14px;
+    outline: 1px solid var(--color-1);
+    background: transparent;
+    font-family: "Popping-Thin";
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--color-1);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
+.div_buttons a:hover{
+    outline: none;
+    backdrop-filter: blur(24px);
+}
 
+.article_reviews {
+    background: red;
+    padding: 20px;
+}
+.div_reviews-container {
+    background: blue;
+    padding: 20px;
+}
+.div_reviews-cards {
+    background: green;
+    padding: 20px;
+}
+.div_reviews-profiles {
+    background: violet;
+    padding: 20px;
+}
+.div_reviews-profiles img {
+    background: orange;
+    padding: 20px;
+}
+.div_reviews-cards p{
+}
+.div_reviews-rating {
+    background: yellow;
+    padding: 20px;
+}
+.div_reviews-rating h3 {
+}
+.div_reviews-stars {
+    background: olive;
+    padding: 20px;
+}
+.div_reviews-stars img{
+    background: turquoise;
+}
