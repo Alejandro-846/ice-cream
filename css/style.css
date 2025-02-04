@@ -274,4 +274,26 @@ main{
     outline: none;
     backdrop-filter: blur(3px);
 }
+.section__container-products{
+    background: red;
+    display: flex;
+    flex-direction: column;
+}
 
+.div__trendy {
+    background: violet;
+}
+.article__products{
+    background: green;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    column-gap: 52px;
+    row-gap: 59px;
+}
+.form__container-product{
+    background: orange;
+    width: 690px;
+    height: 324px;
+    
+}
