@@ -342,7 +342,7 @@ main{
     outline: 1px solid var(--color-1);
     border-radius: 24px;
     backdrop-filter: blur(8px);
-<<<<<<< HEAD
+<<<<<<< HEAD >>>>
 }
 .form__container-product:hover{
     outline: none;
@@ -452,15 +452,45 @@ footer p{
     align-items: center;
     padding-right: 75px;
     gap: 48px;
-=======
->>>>>>> b33e58b57227aadb4252d65e9e9f0ec476441ba4
 }
+.conunter {
+    justify-content: center;
+    height: 29px;
+    width: 84;
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 11px;
+    padding: 5px;
+    margin-top: 5px;
+    gap: 20px;
+    font-family: "Poppins-Regular";
+}
+.btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: "Poppins-Regular";
+}
+.number_btn {
+    background: none;
+    border: none;
+    color: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Poppins-Regular";
+}
+
 .form__container-product:hover{
     outline: none;
     cursor: pointer;
 }
 .form__container-product:active,
 .form__container-product:active h3,
+.form__container-product:active button,
 .form__container-product:active span,
 .form__container-product:active input[type="submit"],
 .form__container-product:active input[type="number"],
@@ -468,6 +498,8 @@ footer p{
     background: var(--color-1);
     color: var(--color-2);
 }
+.form__container-product:active ,
+.form__container-product:active .conunter,
 .form__container-product:active input[type="submit"]{
     outline: 1px solid var(--color-2);
 }
@@ -497,8 +529,8 @@ footer p{
 }
 .div__product span{
     color: var(--color-1);
-    font-family: "Poppins-Medium";
-    font-size: 20px;
+    font-family: "Poppins-Regular";
+    font-size: 15px;
 }
 .div__type-order {
     /* background: red; */
